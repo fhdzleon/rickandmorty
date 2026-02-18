@@ -108,5 +108,3 @@ npm start
 
 Built as a frontend architecture and UI composition practice project by SkullDev
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# rickandmorty
