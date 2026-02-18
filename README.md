@@ -1,71 +1,112 @@
-# Getting Started with Create React App
+# 🛸 Rick & Morty Explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern character explorer built with React and Redux, powered by the Rick & Morty API.
 
-## Available Scripts
+Browse, filter and save your favorite characters in a clean, responsive card-based interface.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project consumes the public Rick & Morty API and provides a dynamic interface to explore characters from the series.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+It demonstrates scalable state management, routing, asynchronous data handling and UI composition using Styled Components.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Features
 
-### `npm run build`
+- 🔍 Character listing from API
+- 🎯 Advanced filtering (status, species, etc.)
+- ❤️ Add / remove favorites
+- 🔄 Global state management with Redux
+- 🌐 Client-side routing with React Router
+- 🎨 Styled Components for modular styling
+- ⚡ Async data fetching with Axios
+- 📱 Responsive card grid layout
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🧠 Architecture Highlights
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Redux + Thunk** for global state and async actions
+- **React Router v6** for navigation
+- **Axios** for API consumption
+- **Styled Components** for scoped, dynamic styling
+- Clean separation between:
+  - UI components
+  - State logic
+  - Async services
+  - Routing structure
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🏗️ Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React 18
+- Redux 5
+- Redux Thunk
+- React Router DOM v6
+- Axios
+- Styled Components
+- Create React App
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📦 API Used
 
-## Learn More
+Public API:
+https://rickandmortyapi.com/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📸 Core Functionalities
 
-### Code Splitting
+### 🔎 Filtering System
+Allows dynamic filtering of characters based on different criteria.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### ❤️ Favorites System
+Users can add characters to a favorites list managed in global state.
 
-### Analyzing the Bundle Size
+### 🧭 Routing
+Separate views handled through client-side routing.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🎯 What This Project Demonstrates
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Scalable frontend architecture
+- Global state management patterns
+- Async API integration
+- Component reusability
+- Clean UI composition
+- Separation of concerns
+- Production-ready project structure
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🔮 Possible Improvements
 
-### Deployment
+- Pagination
+- Persist favorites in LocalStorage
+- Loading skeletons
+- Error boundary handling
+- Performance optimization with memoization
+- Dark mode toggle
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
+
+## 🛠️ Installation
+
+```bash
+npm install
+npm start
 
 ### `npm run build` fails to minify
+
+## 💀 Author
+
+Built as a frontend architecture and UI composition practice project by SkullDev
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # rickandmorty
