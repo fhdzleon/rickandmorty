@@ -98,7 +98,7 @@ Separate views handled through client-side routing.
 
 ## 🛠️ Installation
 
-```bash
+bash
 npm install
 npm start
 
